@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "chart.js": "^4.0.1",
+    "express": "^4.18.2",
+    "mqtt": "^4.3.7",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.5.3",
+    "socket.io-client": "^4.5.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "mcb-end",
+  "version": "1.0.0",
+  "description": "mcb , btl",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CuuvuivevaSoixam/MCB.git"
+  },
+  "author": "LAD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CuuvuivevaSoixam/MCB/issues"
+  },
+  "homepage": "https://github.com/CuuvuivevaSoixam/MCB#readme"
+}
