@@ -1,7 +1,7 @@
 let lightOnNoti='Bạn có muốn bật đèn không?'
 let lightOffNoti='Bạn có muốn tắt đèn không?'
-let DoorOpenNoti='bạn có muốn mở cửa không'
-let DoorCloseNoti='bạn có muốn đóng cửa không'
+let DoorOpenNoti='Bạn có muốn mở cửa không?'
+let DoorCloseNoti='Bạn có muốn đóng cửa không?'
 document.querySelector('#but1').addEventListener('click',()=> {
     if (confirm(lightOnNoti)){
         socket.emit('led', 'on')
